@@ -79,7 +79,8 @@ public class DocMain {
 					}
 					break;
 				case 5:
-					System.out.println("Enter specialization");
+					System.out.println(
+);
 					String spec=sc.nextLine();
 					List<Doctor> list=new ArrayList<>();
 					list=doct.searchBySpecialization(spec);
